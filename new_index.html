@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ayush Bandopadhyay's Engineering Portfolio</title><!--This is the about Me, linking to Bootstrap and css also-->
+    <link href="myPortfolio.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--For mobile sites-->
+  </head>
+  <body><!--This is about me -->
+    <div class="pos-f-t sticky-top"><!--This is my navigation bar, this part is the collapse which brings in the Contact Me using a little bit of JS-->
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4 contact"><!--Sets it to dark and spaces it-->
+          <h4 class="contact-t"> Contact Me: Dublin, CA</h4>
+          <div class="container logo">
+            <a href="mailto:ayushbj1@gmail.com">  <img class="img-fluid logo-t" src="Images/mail.png" alt="Mail Logo"></a>
+            <a href="https://github.com/abj101">  <img class="img-fluid logo-t" src="Images/git.png" alt="git Logo"></a>
+            <a href="https://www.dublin.k12.ca.us/dhs">  <img class="img-fluid logo-t" src="Images/DHS.png" alt="DHS Logo"></a>
+          </div>
+        </div>
+      </div>
+        <nav class="sticky-top nav nav-fill navbar navbar-dark bg-dark"> <!--This is the nav bar for all of the parts of my website-->
+          <a class=" nav-item nav-link active" href="new_index.html">Home</a>
+          <a class=" nav-item nav-link" href="Bandopadhyay_AboutMe.html">About Me</a>
+          <a class=" nav-item nav-link" href="resume.html">Resume</a>
+          <a class=" nav-item nav-link" href="projects.html">Projects</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span><!--This is my button which is toggling the collapse-->
+          </button>
+        </nav>
+      </div>
+      <header>
+      <div class="index jumbotron t">
+        <div class="fix">
+        <h1>Ayush Bandopadhyay's</h1>
+        <h2>Engineering Portfolio</h2>
+        </div>
+        <div class="move">
+          <a href="#">
+            <span>
+              <img class= "padd" src="Images/scroll.png" alt="Logo" />
+            </span>
+          </a> 
+        </div>
+      </div>
+    </header><!--These are the three cards, each of them have multiple classes from Bootstrap for sizing to keep them in teh jumbotron, keep them uniform in size, and keep them with the same shape-->
+    <div class="jumbotron white">
+      <div class="row">
+        <div class="card-group full">
+            <div class="card">
+              <div class="card-body flex-fill">
+                </a><h6>Work Experience</h6><!--This shows my work experience-->
+                <h5 class="card-title">Red Cross</h5>
+                <div class="img-fluid rounded float-sm-center"><img class="" src="Images/red_cross.jpg" alt="Red Cross Logo"></div>
+                <a href="resume.html">More</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body flex-fill">
+                <h6>Projects</h6><!--This shows my Scratch project in a card-->
+                <h5 class="card-title">Scratch Project</h5>
+                <div class="img-fluid rounded float-sm-center"><img class="" src="Images/wizard_1.png" alt="Image of Scratch game"></div>
+                <a href="projects.html">Continue reading</a>
+              </div>
+            </div>22
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-body flex-fill">
+              <h6>Projects</h6><!--This shows my Scratch project in a card-->
+              <h5 class="card-title">Python Project</h5>
+              <p>One of my first python <a href="projects.html">projects</a></p>
+               <img class="img-fluid animate" src="Images/py.png" alt="python Logo">
+              <div class="float-sm-center">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!--Linking to JS for nav-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>

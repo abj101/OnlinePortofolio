@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projects</title>
+    <link href="myPortfolio.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--For mobile sites-->
+  </head>
+  <body>
+    <div class="pos-f-t sticky-top"><!--This is my navigation bar, this part is the collapse which brings in the Contact Me using a little bit of JS-->
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4 contact"><!--Sets it to dark and spaces it-->
+          <h4 class="contact-t"> Contact Me: Dublin, CA</h4>
+          <div class="container logo">
+            <a href="mailto:ayushbj1@gmail.com">  <img class="img-fluid logo-t" src="Images/mail.png" alt="Mail Logo"></a>
+            <a href="https://github.com/abj101">  <img class="img-fluid logo-t" src="Images/git.png" alt="git Logo"></a>
+            <a href="https://www.dublin.k12.ca.us/dhs">  <img class="img-fluid logo-t" src="Images/DHS.png" alt="DHS Logo"></a>
+          </div>
+        </div>
+      </div>
+        <nav class="sticky-top nav nav-fill navbar navbar-dark bg-dark"> <!--This is the nav bar for all of the parts of my website-->
+          <a class="nav-item nav-link active" href="new_index.html">Home</a>
+          <a class="nav-item nav-link" href="Bandopadhyay_AboutMe.html">About Me</a>
+          <a class="nav-item nav-link" href="resume.html">Resume</a>
+          <a class="nav-item nav-link" href="projects.html">Projects</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span><!--This is my button which is toggling the collapse-->
+          </button>
+        </nav>
+      </div>
+      <div class="jumbotron">
+        <div class="container about">
+          <h1 class="text-center">Projects</h1><!--Title for Projects-->
+          <h5 class="text-center">2018-2019</h5>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <section>
+            <h3 class="pt-5 pb-1">Scratch Project:</h3><!--Titles-->
+            <h5>Computer Science Principles</h5>
+            <h5>September 2018 - October 2018</h5>
+            <img class="img-fluid rounded img-thumbnail float-left mr-5 my-5" src="Images/Scratch.png" alt="Red Cross Logo"><!--My project, with an image and explanation-->
+            <p class="py-5">The main goal of this project was to show our programming skills in block based code through Scratch by creating a game with my partners, Juan and Oleg, then customizing and documenting it. My partners and I decided to try something different and we created a 2D obstacle course game. We created something like Mario, so we named our project Marriiiooo 2. Our game can be controlled by the arrows keys, and uses space to attack. The goal is simple, get to the door. The main work I did was the animations with characters, weapons, and the levels. Together, we had to work through the many glitches and problems, like keeping the character on top of the platforms, running animations, and introducing gravity. Overall, this project was challenging, but allowed us to learn the basics and nuances of creating a game. Click <a href="https://docs.google.com/document/d/1U9Cb5fGfqKc7LCLTD2Rabae4PFxvcXcAymv_KmHXXGc/edit?usp=sharing"> here </a> for the documentation.</p>
+          </section><!--Above is the main paragraph-->
+        </div>   
+        <div class="row pb-5"><!--All images at bottom-->
+          <div class="col-sm-3 img-fluid rounded pb-2" >
+            <img src="Images/Start.png" alt="Start" >
+          </div>
+          <div class="col-sm-3 img-fluid rounded pb-2">
+            <img src="Images/char.png" alt="Character Page">
+          </div>
+          <div class="col-sm-3 img-fluid rounded pb-2">
+            <img src="Images/code.png" alt="code">
+          </div>
+          <div class="col-sm-3 img-fluid rounded pb-2">
+            <img src="Images/final.png" alt="Finish">
+          </div>
+        </div>
+         <div class="row">
+          <section>
+            <h3 class="pt-5 pb-1">Python Project:</h3><!--Titles-->
+            <h5>Computer Science Principles</h5>
+            <h5>December 2018 - January 2018</h5>
+            <img class="img-fluid rounded img-thumbnail float-left mr-5 my-5" src="Images/images.png" alt="Red Cross Logo"><!--My project, with an image and explanation-->
+            <p class="py-5">The main goal of this project was to show off our python programming skills with loops and if statements. This project was done with my partner Arin Manohar. The objective was to create a hangman game which allows the user to give input and actually play hangman with different themes as well. We decided to do some extra things, so we created two different themes, and multiple randomly generated words with difficulty levels as well. Our game is just using user input from the keyboard. In order to stop it from crashing, we had to develop a error handling function which made sure the inputs were letters, and also made sure that it was the right word in general. A few challenges we had were creating the error handling software, implementing it, and also creating the program with only recursive loops as a challenge. All in all, it was both a fun and interesting challenge which allowed us to show off our skills. Click <a href="https://docs.google.com/document/d/1b6EaoQpKTNJ1TdiBvu40jKJvA3lgjMO4vmCu8BR8Wpc/edit?usp=sharing"> here </a> for the documentation.</p>
+          </section><!--Above is the main paragraph-->
+        </div>   
+        <div class="row pb-5"><!--All images at bottom-->
+          <div class="col-sm-4 img-fluid rounded pb-2">
+            <img src="Images/WRONG.png" alt="Character Page">
+          </div>
+          <div class="col-sm-4 img-fluid rounded pb-2">
+            <img src="Images/HINT.png" alt="code">
+          </div>
+          <div class="col-sm-4 img-fluid rounded pb-2">
+            <img src="Images/WIN.png" alt="Finish">
+          </div>
+        </div>
+      </div>
+  </body>
+  <!--Links to JS in botstrap for just nav bar-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
